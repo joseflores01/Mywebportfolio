@@ -1,0 +1,28 @@
+.Reduced {
+    /* display: inline-block; */
+    width: 600px;
+    margin: 10px ;
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+  }
+.Expanded{
+    width: 80%;
+    margin: 10px ;
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    /* padding-bottom: 40px; */
+}
+.InfoIcon {
+    left: 90%;
+}
+.infIconContainer {
+    width: 100%;
+    text-align: end;
+}
+.hidden{
+    display: none;
+  }
+
+  
