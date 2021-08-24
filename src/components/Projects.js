@@ -1,49 +1,90 @@
-import React, { useState } from 'react';
+import React from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import InfoIcon from '@material-ui/icons/Info';
 import ExpandableCard from './ExpandableCard';
-// import ac from './ac.png'
+import '../App.css';
+// import ExpandableCard from  "expandable-card";
 
 
 function Projects() {
 
 
-
-    var contentArr = [1, 2, 3, 4];
-
-    const [expanded, setExpanded]  = useState(false);
- 
-
-    var ti ="Atlantic Cleaning WebSite";
-    var p ="Worked on a team to build a complete web-based solution that meets real-worlds client's needs using Wordpress. Applied user-centered principles, requirements, persona development, business analysis, prototyping, and testing. "
-    var im = '/ac.png';
-
     return (
-
-
             <div className="projectContainerParent">
   
                     <br/><br/><h1>Projects</h1>
 
-                    <ExpandableCard icon = {<GitHubIcon/>} title={ti} paragraph={p} hparagraph={"did ssss"} img={im} link ={"https://atlanticcleaningnsb.com"} linkName = {"WebSite"}/>
+                    <ExpandableCard 
+                        title = "Senior Design Web Portal"
+                        header = "Jan 2021 - Present"
+                        paragraph = "Working on a team as a frontend developer to make a web portal to be used for future Senior Design classes."
+                        // hparagraph = "As a frontend developer I built one of the major components for the app, a dynamic calendar. I also created other components for the user interface. During the development I contributed with ideas and solutions to several problems we faced."
+                        // img = '/plannit.png'
+                        // himg = '/plannit2.png'
+                        // footer = 'Technology used: MERN Stack, JWT tokens'
+                        // footer2 = "Project type: Software engineering"
+                        // link1 ="https://github.com/GavinTryz/Plannit"
+                        // linkName1 = {<GitHubIcon style={{ color: 'black' }}/>}
+                        // link2 = "https://plannit-cop4331.herokuapp.com"
+                        // linkName ={<GitHubIcon/>}
+                        // linkName2 ={<GitHubIcon/>}
+                        // linkName2 ={<button className="linkBtn">Website ❭</button>}
+                        button ="hidden"
+                    />
 
+                    <ExpandableCard 
+                        title = "Plannit - MERN Stack"
+                        header = "Mar 2021 - Apr 2021"
+                        paragraph = "Plannit is a tool for planning and organizing events with groups of people. We developed a webapp and mobile app. I worked on a team of  seven members as a frontend developer."
+                        hparagraph = "As a frontend developer I built one of the major components for the app, a dynamic calendar. I also created other components for the user interface. During the development I contributed with ideas and solutions to several problems we faced."
+                        img = '/plannit.png'
+                        himg = '/plannit2.png'
+                        footer = 'Technology used: MERN Stack, JWT tokens'
+                        footer2 = "Project type: Software engineering"
+                        link1 ="https://github.com/GavinTryz/Plannit"
+                        linkName1 = {<GitHubIcon style={{ color: 'black' }}/>}
+                        link2 = "https://plannit-cop4331.herokuapp.com"
+                        // linkName ={<GitHubIcon/>}
+                        // linkName2 ={<GitHubIcon/>}
+                        linkName2 ={<button className="linkBtn">Website ❭</button>}
+                    />
 
-                    {/* <div className={expanded ? "projectContainer__Exp" : "projectContainer__R"}>
-                        <h3>Atlantic Cleaning WebSite </h3>
-                        <p>Worked on a team to build a complete web-based solution that meets real-worlds client's needs using Wordpress.
-                             Applied user-centered principles, requirements, persona development, business analysis, prototyping, and testing.</p>
-                        <img className="projectImg" src={'/ac.png'}></img><br/>
-                        <InfoIcon className="InfoIcon" onClick={()=>{setExpanded(!expanded)}}/><br/>
+                    <ExpandableCard 
+                        title = "Contact Manager WebApp"
+                        header = "Jan 2021 – Feb 2021"
+                        paragraph = "Contact Manager App was my first experience in the web development or stack. I worked in a team of five as a database administrator and frontend end developer."
+                        hparagraph = "The webapp was developed to support users' registration, authentication, and contained the main functionalities of any contact app such as, add, serch, edit, and delete contact. During the develoment I had experience with SQL database and javascript."
+                        img = '/contastic.png'
+                        footer = 'Technology used: LAMP Stack'
+                        footer2 = "Project type: Software engineering"
+                        link = "https://github.com/BenBraun23/Contastic/" 
+                        linkName = {<GitHubIcon style={{ color: 'black' }}/>}
+                        // button ="hidden"
+                    />
 
-                        <span className={expanded ? "" : "hidden"}>Technology used: WordPress</span><br/>
-                        <a href= "https://atlanticcleaningnsb.com" className={expanded ? "" : "hidden"}>Website</a>
-                        <a className={expanded ? "" : "hidden"} href="https://github.com/joseflores01"><GitHubIcon style={{ color: 'black' }}/></a>
-                    </div> */}
+                    <ExpandableCard 
+                        title = "Atlantic Cleaning WebSite"
+                        header = "Sep 2020 – Nov 2020"
+                        paragraph = "Worked on a team to build a complete web-based solution that meets real-worlds client's needs using Wordpress. Applied user-centered principles, requirements, persona development, business analysis, prototyping, and testing."
+                        hparagraph = "The UX team consisted of 5 members (a project manager, graphic designer, technical writer, web programmer, and quality assurance). My team role was the web programmer. I was in charge of the server configuration, research of WordPress tools and dependencies and implement the layout."
+                        img = '/ac.png'
+                        footer = 'Technology used: WordPress and Elementor'
+                        footer2 = 'Project type: UX design'
+                        link ="https://atlanticcleaningnsb.com" 
+                        linkName = {<button className="linkBtn">Website ❭</button>}
+                    /> 
 
-           
+                    <ExpandableCard 
+                        title = "PL/0 Compiler"
+                        paragraph = "I constructed a fully functional compiler for PL/0 programming language. The compiler is written in C and has a lexical analyzer (Scanner), syntax analyzer (Parser) with a code generator, and a virtual machine."
+                        // hparagraph = "The UX team consisted of 5 members (a project manager, graphic designer, technical writer, web programmer, and quality assurance). My team role was the web programmer. I was in charge of the server configuration, research of WordPress tools and dependencies and implement the layout."
+                        // img = '/plannit.png'
+                        // footer = 'Technology used: MERN Stack'
+                        link ="https://github.com/joseflores01/PL-0-Compiler" 
+                        linkName = {<GitHubIcon style={{ color: 'black' }}/>}
+                        footer = 'Written in: C'
+                        footer2 = 'Project type: Systems Software'
+                    />
             </div>
-
     );
 }
 
