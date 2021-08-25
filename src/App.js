@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 import AboutPage from './pages/AboutPage';
 import HomePage from './pages/HomePage';
 import ResumePage from './pages/ResumePage';
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import ClipLoader from "react-spinners/ClipLoader";
 import ProjectsPage from './pages/ProjectsPage';
 
 
@@ -14,7 +14,7 @@ function App() {
         setLoading(true);
         setTimeout(()=>{
             setLoading(false)
-        }, 3000)
+        }, 2000)
 
     }, [])
 
@@ -23,7 +23,7 @@ function App() {
         <Router >
                 <Switch>
                     {loading ? 
-                    <div className="App"><ClimbingBoxLoader/></div>
+                    <div className="App"><ClipLoader/></div>
                     :
                     <Route path ="/" exact>
                         <HomePage />

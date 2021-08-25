@@ -8,9 +8,9 @@ function Footer() {
         <div className="footer">
             <br/><br/><p>Contact me</p>
             <div className="contactInfo">
-                <a href="https://github.com/joseflores01"><GitHubIcon style={{ color: 'black' }}/></a>
-                <a href="https://www.linkedin.com/in/jose-a-flores-oria-232b32219/"><LinkedInIcon color="primary" style={{ fontSize: 33 }}/></a>
-                <a><AlternateEmailIcon/></a>
+                <a className="contactIcons" href="https://github.com/joseflores01"><GitHubIcon style={{ color: 'black' }}/></a>
+                <a className="contactIcons" href="https://www.linkedin.com/in/jose-a-flores-oria-232b32219/"><LinkedInIcon color="primary" style={{ fontSize: 33 }}/></a>
+                <a className="contactIcons" href="mailto:joseflores01@outlook.com" ><AlternateEmailIcon style={{ color: 'black' }}/></a>
             </div>
             <div className="copyright">
                 <p>Copyright © {new Date().getFullYear()} José Flores</p>

@@ -1,0 +1,35 @@
+/* .InfoStyle {
+    display: inline;
+} */
+
+.resumeContainer {
+    display: block;
+    /* flex-direction: column; */
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.InfoStyle {
+    margin-left: 300px;
+    
+}
+h4 {
+    display: inline;
+}
+#ResumeProjectaPart{
+    background-color: yellow;
+    width: fit-content;
+
+    
+}
+
+
+@media only screen and (max-width: 800px) {
+    .InfoStyle {
+        margin-left: 0px;
+    }
+
+}

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
 
 function AboutInformation() {
     return (
@@ -15,11 +16,13 @@ function AboutInformation() {
             </div>
             <div className="AboutInfoContainer__rightSide">
                 <p className="pInfo">
-                    I am currently seeking for a full-time job as a software engineer. 
-                    Right now, my area of greatest expertise is web-development, especially front-end,
+                    My area of greatest expertise is web-development, especially front-end,
                     but I am actively working to expand my knowledge to the full-stack and other fields 
                     as wells. My interests include machine learning, artificial intelligence, 
                     mobile app, UX design.
+                </p>
+                <p className="pInfo">
+                    I am currently pursuing my bacherlor's degree in Computer Science from the University of Central Florida.
                 </p>
             </div>
         </div>

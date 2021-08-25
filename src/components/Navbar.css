@@ -19,7 +19,8 @@
     max-height: 80px;
     flex: 50%;
     color: white;
-    font-size: 14pt;
+    font-size: 1.2em;
+    text-decoration: none;
     margin-left: 40px
 }
 
@@ -27,7 +28,8 @@
     max-height: 80px;
     flex: 50%;
     color: white;
-    font-size: 14pt;
+    text-decoration: none;
+    font-size: 1.2em;
     margin-left: 40px
 }
 
@@ -42,15 +44,24 @@
 .Navbar .rightSide #hidden {
     display: flex;
 }
+.links a:hover {
+    text-decoration: underline;
 
-.expanding_btn {
-    display: none;
 }
+
+
+/*------- deprecated-------*/
+/* .expanding_btn {
+    display: none;
+} */
   
-@media only screen and (max-width: 800px) {
-    .expanding_btn {
-      display: flex;
-    }
+@media only screen and (max-width: 700px) {
+
+    /*------- deprecated-------*/
+    /* .expanding_btn {
+      display: flex; 
+    } */
+
     .rightSide .links {
       display: none;
     }
