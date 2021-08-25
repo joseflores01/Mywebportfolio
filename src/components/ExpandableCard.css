@@ -1,5 +1,6 @@
 .Reduced {
-    width: 600px;
+    max-width: 600px;
+    width: auto;
     margin: 10px ;
     display: inline-block;
     background-color: rgb(241, 241, 241);
@@ -37,7 +38,8 @@
 }
 
 .projectImg {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
 }
 
 .titleFont {

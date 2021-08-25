@@ -69,8 +69,9 @@
     background-color: rgb(255, 255, 255);
     background-position: center;
     width: 100%;
-    height: 500px;
+    height: auto;
     background-size: cover;
+    text-align: center;
 }
 
 .footer {
@@ -84,7 +85,8 @@
 }
 
 .foto {
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   border-radius: 100%;
 }
 
@@ -110,8 +112,12 @@
 }
 
 .programmingSkills {
-  width: 100%;
-  height: 600px;
+  margin-top: 60px;
+  margin-bottom: 150px;
+  width: 95%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  height: auto;
   text-align: center;
 }
 

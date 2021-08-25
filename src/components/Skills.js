@@ -8,7 +8,7 @@ function Skills() {
     return (
         <div className="skillsContainer">
             <div className="programmingSkills">
-                <br/><br/>
+                {/* <br/><br/> */}
                 <h1>Programming skills</h1>
                 {/* <h3>I have done a variety of projects using these programing languages and frameworks</h3> */}
                 <span className="defaultFont">I have experience in different programing languges and frameworks that I have learned by making projects.</span><br/>
@@ -43,9 +43,10 @@ function Skills() {
                 <div className="iconContainer">
                     <img className="logo" src={'/java.png'}></img><br/>
                     <span>Java</span>
-                </div><br/><br/><br/>
-                <Link to="/projects">Check out my projects ›</Link>
+                </div>
+                <br/><br/><br/>
                 
+                <Link to="/projects">Check out my projects ›</Link>
 
             </div>    
         </div>
