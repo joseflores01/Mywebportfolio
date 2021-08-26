@@ -10,7 +10,7 @@ function AboutInformation() {
                     to develop new technologies to make people’s life easier. 
                     I am a detail-oriented and curious person; I like to see thoroughly
                     all perspectives of the matter and understand everything from the root.
-                    Anything from engineering or science always drives my attention. 
+                    Anything in engineering or science always drives my attention. 
                     I am also an autodidact person and motivated for learning new skills.
                 </p>
             </div>
@@ -18,8 +18,8 @@ function AboutInformation() {
                 <p className="pInfo">
                     My area of greatest expertise is web-development, especially front-end,
                     but I am actively working to expand my knowledge to the full-stack and other fields 
-                    as wells. My interests include machine learning, artificial intelligence, 
-                    mobile app, UX design.
+                    as well. My interests include machine learning, artificial intelligence, 
+                    mobile apps, UX design.
                 </p>
                 <p className="pInfo">
                     I am currently pursuing my bacherlor's degree in Computer Science from the University of Central Florida.
