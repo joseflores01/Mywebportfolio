@@ -52,7 +52,7 @@ function Projects() {
                         title = "Contact Manager WebApp"
                         header = "Jan 2021 – Feb 2021"
                         paragraph = "Contact Manager App was my first experience in the web development or stack. I worked in a team of five as a database administrator and frontend developer."
-                        hparagraph = "In just 5 weeks we developed this app that supports users' registration, authentication. It contains the main functionalities of any contact app such as, add, serch, edit, and delete contacts. During the develoment I had experience with SQL database, JavaScript and Apache server."
+                        hparagraph = "In just 5 weeks we developed this app that supports user registration/authentication and contains the main functionalities of any contact app such as, add, serch, edit, and delete contacts. During the develoment I had experience with SQL database, JavaScript and Apache server."
                         img = '/contastic.png'
                         footer = 'Technology used: LAMP Stack'
                         footer2 = "Project type: Software engineering"
