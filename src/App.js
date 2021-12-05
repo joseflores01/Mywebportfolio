@@ -10,25 +10,25 @@ import ProjectsPage from './pages/ProjectsPage';
 function App() {
     const[loading, setLoading] = useState(false);
 
-    useEffect(()=>{
-        setLoading(true);
-        setTimeout(()=>{
-            setLoading(false)
-        }, 2000)
+    // useEffect(()=>{
+    //     setLoading(true);
+    //     setTimeout(()=>{
+    //         setLoading(false)
+    //     }, 1000)
 
-    }, [])
+    // }, [])
 
 
     return (
         <Router >
                 <Switch>
-                    {loading ? 
+                    {/* {loading ? 
                     <div className="App"><ClipLoader/></div>
-                    :
+                    : */}
                     <Route path ="/" exact>
                         <HomePage />
                     </Route>
-                    }
+                    {/* } */}
                     <Route path ="/About" exact>
                         <AboutPage/>
                     </Route>

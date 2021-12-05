@@ -9,7 +9,7 @@ function Skills() {
         <div className="skillsContainer">
             <div className="programmingSkills">
                 {/* <br/><br/> */}
-                <h1>Programming skills</h1>
+                <h1 className="title">Programming skills</h1>
                 {/* <h3>I have done a variety of projects using these programing languages and frameworks</h3> */}
                 <span className="defaultFont">I have experience in different programing languges and frameworks that I have learned by making projects.</span><br/>
                 <span className="defaultFont">In my free time, I often reinforce some of my programming languages skills and learn new ones.</span><br/><br/><br/>
@@ -43,6 +43,10 @@ function Skills() {
                 <div className="iconContainer">
                     <img className="logo" src={'/java.png'}></img><br/>
                     <span>Java</span>
+                </div>
+                <div className="iconContainer">
+                    <img className="logo" src={'/python.png'}></img><br/>
+                    <span>Python</span>
                 </div>
                 <br/><br/><br/>
                 

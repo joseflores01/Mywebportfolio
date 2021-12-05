@@ -8,7 +8,7 @@ import Navbar from '../components/Navbar';
 function AboutPage() {
 
     useEffect(() => {
-        document.title = "Jose About"
+        document.title = "Jose A. Flores O. - About"
      }, []);
 
     return (

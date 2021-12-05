@@ -46,8 +46,8 @@ function ExpandableCard(props) {
                 </div>
 
                 <div className="infIconContainer">
-                    {props.button=="hidden"? "" :
-                        <InfoIcon className="InfoIcon" onClick={()=>{setExpanded(!expanded)}}/>
+                    {props.button==="hidden"? "" :
+                        <InfoIcon className="InfoIcon" onClick={()=>setExpanded(!expanded)}/>
                     }
                 </div>
             </div>   
