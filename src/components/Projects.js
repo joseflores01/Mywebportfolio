@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import ExpandableCard from './ExpandableCard';
 import '../App.css';
 // import ExpandableCard from  "expandable-card";
+
+import InfoIcon from '@material-ui/icons/Info';
 
 
 function Projects() {
@@ -11,7 +13,7 @@ function Projects() {
     return (
             <div className="projectContainerParent">
   
-                    <br/><br/><h1>Projects</h1>
+                    <br/><br/><h1 className="title">Projects</h1>
 
                     <ExpandableCard 
                         title = "Senior Design Web Portal"
@@ -30,6 +32,23 @@ function Projects() {
                         // linkName2 ={<button className="linkBtn">Website ❭</button>}
                         button ="hidden"
                     />
+
+                    <ExpandableCard 
+                        title = "Weekly COVID-19 Deaths Predictor"
+                        header = "Oct 2021 - Oct 2021"
+                        paragraph = "Built Linear Regression (Ordinary Least Squares), Ridge Regression, Lasso Regression, and Elastic Net models to predict the number of weekly deaths from COVID-19 in the U.S. using time series data from the CDC."
+                        hparagraph = "I built several models and selected the most accurate for the final predictions in which the model obtained an accuracy of 87% in test set"
+                        // img = '/plannit.png'
+                        // himg = '/plannit2.png'
+                        footer = 'Technology used: Python, Pandas, Scikit-Learn'
+                        footer2 = "Project type: Machine Learning"
+                        // link1 ="https://github.com/GavinTryz/Plannit"
+                        // linkName1 = {<GitHubIcon style={{ color: 'black' }}/>}
+                        link2 = "https://www.kaggle.com/joseaflores/weekly-covid-19-deaths-predictor"
+                        // linkName ={<GitHubIcon/>}
+                        // linkName2 ={<GitHubIcon/>}
+                        linkName2 ={<button className="linkBtn">See Project ❭</button>}
+                    />                   
 
                     <ExpandableCard 
                         title = "Plannit - MERN Stack"

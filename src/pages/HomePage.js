@@ -8,7 +8,7 @@ import Footer from '../components/Footer.js';
 function HomePage() {
 
     useEffect(() => {
-        document.title = "Jose Home Page"
+        document.title = "Jose A. Flores O. - Home"
      }, []);
 
     return (

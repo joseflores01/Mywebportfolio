@@ -11,15 +11,36 @@
     padding-top: 100px;
     padding-bottom: 50px;
 }
+.TitleCategory{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.sectionContainer {
+    margin-left: 300px;
+}
 
-.InfoStyle {
+.InfoStyleTitle, .InfoStyleDegree, .InfoStyleDate {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+
+.InfoStyleTitle {
+    font-weight: bold;
+}
+.InfoStyleDate {
+    font-size: small;
+    color: gray;
+    font-style: italic;
+}
+
+/* .InfoStyle {
     margin-left: 300px;
     
-}
+} */
 h4 {
     display: inline;
 }
 #ResumeProjectaPart{
+    /* margin-left: 300px; */
     background-color: yellow;
     width: fit-content;
 
@@ -28,8 +49,8 @@ h4 {
 
 
 @media only screen and (max-width: 800px) {
-    .InfoStyle {
-        margin-left: 0px;
+    .sectionContainer {
+        margin-left: 40px;
     }
 
 }

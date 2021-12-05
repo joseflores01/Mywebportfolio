@@ -7,130 +7,137 @@ import "./Resume.css";
 function ResumePage() {
 
     useEffect(() => {
-        document.title = "Jose's Resume"
+        document.title = "Jose A. Flores O. - Resume"
      }, []);
 
     return (
         <div>
             <Navbar/>
             <div className="resumeContainer">
-                <h4>Education</h4>
-                <p className="InfoStyle">University of Central Florida, Orlando, FL<br/>
-                                         Working on Bacherlor of Science in Computer Science<br/>
-                                         2019 - 2021
-                </p>
+                <h3 className="TitleCategory">Education</h3>
 
-           
-                <p className="InfoStyle">Santa Fe College, Gainesville, FL<br/>
-                                         Associate of Arts with Distinction - AA Computer Science (transfer track)<br/>
-                                         2017 - 2018
-                </p>
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">University of Central Florida</span><br/>
+                    <span className="InfoStyleDegree">Bacherlor of Science in Computer Science</span><br/>
+                    <span className="InfoStyleDate">2019 - 2021</span><br/><br/>
+                </div>
 
-                <p className="InfoStyle">University of Florida, English Language Institute, Gainesville, FL<br/>
-                                         Certificate<br/>
-                                         2015 - 2016
-                </p>
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">Santa Fe College</span><br/>
+                    <span className="InfoStyleDegree">Associate of Arts with Distinction - AA, Engineering</span><br/>
+                    <span className="InfoStyleDate">2017 - 2018</span><br/><br/>
+                </div>
 
-                <h4>Projects & Work Experience</h4>
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">University of Florida, English Language Institute</span><br/>
+                    <span className="InfoStyleDegree">English as a Second Language</span><br/>
+                    <span className="InfoStyleDate">2015 - 2016</span><br/><br/>
+                </div>
 
-              
-                    <p id= "ResumeProjectaPart" className="InfoStyle">
-                        <Link to="projects">See my projects ›</Link>
-                    </p>
-        
+                <h3 className="TitleCategory">Projects & Work Experience</h3>
 
-                {/* <p className="InfoStyle">Webapp project using MERN Stack<br/>
-                                         Working on a team project as a frontend developer to build a web portal using React and Redux.
-                </p>
 
-                <p className="InfoStyle">Webapp project using MERN Stack, <br/>
-                                         Worked on a team as frontend developer to build a planning web app.<br/>
-                                         Spring 2021
-                </p>
+                <div className="sectionContainer">
+                    <Link id= "ResumeProjectaPart" to="projects">See my projects ›</Link>
+                </div><br/>
+                                
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">Student Life, Santa Fe College</span><br/>
+                    <span className="InfoStyleDegree">Worked with Student Life staff to plan & develop programs and activities for students at Santa Fe College. Provided customer service. Promoted events on Campus.</span><br/>
+                    <span className="InfoStyleDate">Aug 2018 - Dec 2018</span><br/><br/>
+                </div>
 
-                <p className="InfoStyle">Webapp project using LAMP Stack, Remote, Spring 2021<br/>
-                                         Worked on a team as a database and frontend developer to build a contact manager webapp. <br/>
-                                         Spring 2021
-                </p>
+                <h3 className="TitleCategory">Certifications</h3>
 
-                <p className="InfoStyle">Web Design (UX/UI) Project using WordPress, Remote<br/>
-                                         Worked with Student Life staff to plan & develop programs and activities for students at Santa Fe College. Provided customer service. Promoted events on Campus.<br/>
-                                         Fall 2020
-                </p> */}
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">Foundations of Leadership Certificate 2</span><br/>
+                    <span className="InfoStyleDegree">The National Society of Leadership and Success</span><br/>
+                    <span className="InfoStyleDate">Oct 2021</span><br/>
+                    <a href="https://members.nsls.org/members/badges/foundation-of-leadership-2/earner/6088c48f-ba22-416f-a0ad-6c6e6047826c/share">See credential</a><br/><br/>
+                </div>
 
-                <p className="InfoStyle">Student Life, Santa Fe College, Gainesville, FL<br/>
-                                         Worked with Student Life staff to plan & develop programs and activities for students at Santa Fe College. Provided customer service. Promoted events on Campus.<br/>
-                                         Fall 2018
-                </p>
 
-                <p className="InfoStyle">
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">Foundations of Leadership Certificate 1</span><br/>
+                    <span className="InfoStyleDegree">The National Society of Leadership and Success</span><br/>
+                    <span className="InfoStyleDate">Sep 2021</span><br/>
+                    <a href="https://members.nsls.org/members/badges/foundation-of-leadership-1/earner/6088c48f-ba22-416f-a0ad-6c6e6047826c/share">See credential</a><br/><br/>
+                </div>
+          
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">JavaScript</span><br/>
+                    <span className="InfoStyleDegree">Sololearn</span><br/>
+                    <span className="InfoStyleDate">Jul 2021</span><br/>
+                    <a href="https://www.sololearn.com/profile/12360066">See credential</a><br/><br/>
+                </div>
 
-                </p>
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">React + Redux</span><br/>
+                    <span className="InfoStyleDegree">Sololearn</span><br/>
+                    <span className="InfoStyleDate">Jul 2021</span><br/>
+                    <a href="https://www.sololearn.com/profile/12360066">See credential</a><br/><br/>
+                </div>
 
-                <h4>Honors & Awards</h4>
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">C tutorial</span><br/>
+                    <span className="InfoStyleDegree">Sololearn</span><br/>
+                    <span className="InfoStyleDate">May 2020</span><br/>
+                    <a href="https://www.sololearn.com/profile/12360066">See credential</a><br/><br/>
+                </div>
 
-                <p className="InfoStyle">Dean's List - Spring 2021<br/>
-                                         University of Central Florida
-                </p>
+                <h3 className="TitleCategory">Skills</h3>
 
-                <p className="InfoStyle">President's Honor Roll - Fall 2020<br/>
-                                         University of Central Florida
-                </p>
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">Programming: </span>
+                    <span className="InfoStyleDegree">JavaScript, React, Redux, HTML, CSS, C, Java, Python, Keras, Pandas</span><br/><br/>
+                    <span className="InfoStyleTitle">Interpersonal: </span>
+                    <span className="InfoStyleDegree">Problem Solving, Leadership, Comunication, Teamwork, Critical Thinking, Attention to Detail, Self-directed Learning</span><br/>
 
-                <h4>Certifications</h4>
+                </div>
 
-                <p className="InfoStyle">Learning Rest APIs - Aug 2021<br/>
-                                         LinkedIn<br/>
-                                         <a href="/CertificateOfCompletion_Learning REST APIs.pdf">See credential</a>
+                <h3 className="TitleCategory">Honors & Awards</h3>
 
-                </p>
-                <p className="InfoStyle">HTML - Aug 2021<br/>
-                                         Sololearn<br/>
-                                         <a href="/cert-1014-12360066.pdf">See credential</a>
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">Dean's List - Spring 2021</span><br/>
+                    <span className="InfoStyleDegree">University of Central Florida</span><br/><br/>
+                </div>
 
-                </p>
-                <p className="InfoStyle">JavaScript - Jul 2021<br/>
-                                         Sololearn<br/>
-                                         <a href="/cert-12360066-1024.pdf">See credential</a>
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">President's Honor Roll - Fall 2020</span><br/>
+                    <span className="InfoStyleDegree">University of Central Florida</span><br/><br/>
+                </div>
 
-                </p>
-                <p className="InfoStyle">React + Redux - Jul 2021<br/>
-                                         Sololearn<br/>
-                                         <a href="/cert-1097-12360066.pdf">See credential</a>
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">Latin American and Caribbean Scholarship - 2020</span><br/>
+                    <span className="InfoStyleDegree">University of Central Florida</span><br/><br/>
+                </div>
 
-                </p>
-                <p className="InfoStyle">C tutorial - May 2020<br/>
-                                         Sololearn<br/>
-                                         <a href="/cert-1089-12360066.pdf">See credential</a>
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">Scholarship Award Nominee - Summer 2016</span><br/>
+                    <span className="InfoStyleDegree">University of Florida, English Language Institute</span><br/><br/>
+                </div>
 
-                </p>
 
-                <h4>Programming Languages</h4>
+                <h3 className="TitleCategory">Languages</h3>
 
-                <p className="InfoStyle">JavaScript, HTML, CSS, C, Java, Python
-                </p>
+                <div className="sectionContainer">
+                    <span className="InfoStyleDegree">English, Spanish, Italian</span><br/>
+                </div>
 
-                <h4>Languages</h4>
 
-                <p className="InfoStyle">English, Spanish, Italian
-                </p>
+                <h3 className="TitleCategory">Organizations</h3>
 
-                <h4>Organization</h4>
+                <div className="sectionContainer">
+                    <span className="InfoStyleDegree">The National Society of Leadership and Success (NSLS)</span><br/>
+                </div>
 
-                <p className="InfoStyle">The National Society of Leadership and Success (NSLS)
-                </p>
 
-                <h4>Interests</h4>
+                <h3 className="TitleCategory">Interests</h3>
 
-                <p className="InfoStyle">Full Stack Web Development, React, UX/UI, Software engineering, AI, Machine Learning
-                </p>
+                <div className="sectionContainer">
+                    <span className="InfoStyleDegree">Full Stack Web Development, React, UX/UI, Software engineering, AI, Machine Learning</span><br/>
+                </div>
 
-                <h4>Hobbies</h4>
-
-                <p className="InfoStyle">Radio controlled airplanes (aeromodelling)
-                </p>
-
-           
             </div>
             <Footer/>
 

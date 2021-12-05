@@ -6,7 +6,7 @@ import Projects from '../components/Projects'
 function ProjectsPage() {
 
     useEffect(() => {
-        document.title = "Jose's Projects"
+        document.title = "Jose A. Flores O. - Projects"
      }, []);
 
     return (
