@@ -6,7 +6,7 @@ function AboutInformation() {
         <div className="AboutInfoContainer">
             <div className="AboutInfoContainer__leftSide">
                 <p className="pInfo">
-                    My name is José, and I’m a tech aficionado excited to develop new technologies to make people’s life easier.
+                    My name is José, and I’m a tech aficionado excited to develop new technologies to make people’s lives easier.
                 </p>
                 <p className="pInfo">
                     I’m a detail-oriented, curious, and autodidact person motivated to learn new subjects and acquire new skills. I like to see thoroughly all perspectives of the things and understand everything from the root. Anything in engineering or science always drives my attention.
