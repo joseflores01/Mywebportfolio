@@ -12,7 +12,7 @@ function AboutMain() {
                     <h3>Software Developer</h3>
                 </div>
                 <div className="About__rightSide">
-                    <img src={'/Jose.JPG'} className="foto"></img><br/><br/> 
+                    <img src={'/Jose.jpg'} className="foto"></img><br/><br/> 
                 </div>
             </div>
         </div>

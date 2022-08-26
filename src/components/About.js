@@ -18,7 +18,7 @@ function About() {
                 <br/><br/><h1 className='title'>Hello, 🌎!</h1>
                 <h1 className='title'>I'm José, a software developer in Florida</h1><br/>
                 <span className="aboutFont" >I enjoy coding, solving propblem, and making things simpler </span><br/><br/>
-                <img src={'/Jose.JPG'} className="foto"></img><br/><br/>
+                <img src={'/Jose.jpg'} className="foto"></img><br/><br/>
                 <Link to="/About">Learn more ›</Link>
             </div>
         </div>

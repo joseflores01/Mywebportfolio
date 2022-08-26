@@ -272,6 +272,8 @@
   font-size: 1.2em;
   font-family: Helvetica, sans-serif;
   line-height: 1.4;
+  /* margin-left: 10px;
+  margin-right: 10px; */
   /* -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2; */
@@ -326,6 +328,10 @@
   }
   .AboutMain {
     width: 700px;
+  }
+  .pInfo {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
