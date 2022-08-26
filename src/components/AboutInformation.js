@@ -17,7 +17,7 @@ function AboutInformation() {
                     At this moment, my area of greatest expertise is web-development, especially Frontend, but I’m actively working to expand my knowledge to the Full-stack as well as to other fields in CS. My interests include Machine Learning, Artificial Intelligence, Mobile App development, Web development, and UX Design.
                 </p>
                 <p className="pInfo">
-                    I'm currently pursuing my bacherlor's degree in Computer Science from the University of Central Florida.
+                    I have a bacherlor's degree in Computer Science from the University of Central Florida.
                 </p>
             </div>
         </div>

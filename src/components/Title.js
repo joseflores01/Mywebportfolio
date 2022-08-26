@@ -13,7 +13,7 @@ function Title() {
         // opacity: '0.9'
     };
 
-    const rndInt = Math.floor(Math.random() * 3) + 1
+    const rndInt = Math.floor(Math.random() * 4) + 1
 
     return (
         <div style={backgoundStyle}>
@@ -32,6 +32,11 @@ function Title() {
                 <div>
                     <h className="pageTitle">“Engineering is the closest thing to magic that exists in the world.”</h>
                     <p className="pageTitle2">- Elon Musk</p>
+                </div>}
+                {rndInt === 4 &&
+                <div>
+                    <h className="pageTitle">“Only the best is good enough.”</h>
+                    <p className="pageTitle2">- Ole Kirk Christiansen, Founder of LEGO</p>
                 </div>}
 
             </div>

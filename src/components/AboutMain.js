@@ -9,10 +9,10 @@ function AboutMain() {
             <div className="AboutMain">
                 <div className="About__leftSide">
                     <h1>José A. Flores Oria</h1>
-                    <h3>Student at University of Central Florida</h3>
+                    <h3>Software Developer</h3>
                 </div>
                 <div className="About__rightSide">
-                    <img src={'/foto.jpg'} className="foto"></img><br/><br/> 
+                    <img src={'/Jose.JPG'} className="foto"></img><br/><br/> 
                 </div>
             </div>
         </div>

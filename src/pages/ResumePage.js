@@ -42,12 +42,19 @@ function ResumePage() {
                 </div><br/>
                                 
                 <div className="sectionContainer">
-                    <span className="InfoStyleTitle">Student Life, Santa Fe College</span><br/>
+                    <span className="InfoStyleTitle">Educational Aide, Student Programming Team (Student Life)</span><br/>
                     <span className="InfoStyleDegree">Worked with Student Life staff to plan & develop programs and activities for students at Santa Fe College. Provided customer service. Promoted events on Campus.</span><br/>
                     <span className="InfoStyleDate">Aug 2018 - Dec 2018</span><br/><br/>
                 </div>
 
                 <h3 className="TitleCategory">Certifications</h3>
+
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">Oracle Certified Associate, Java SE 8 Programmer</span><br/>
+                    <span className="InfoStyleDegree">Oracle</span><br/>
+                    <span className="InfoStyleDate">Apr 2022</span><br/>
+                    <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=D4E4452C646928E392FFA9CE498893C714ADC32AF6A9277871F10CE4DC857B3B">See credential</a><br/><br/>
+                </div>
 
                 <div className="sectionContainer">
                     <span className="InfoStyleTitle">Foundations of Leadership Certificate 2</span><br/>
@@ -63,52 +70,42 @@ function ResumePage() {
                     <span className="InfoStyleDate">Sep 2021</span><br/>
                     <a href="https://members.nsls.org/members/badges/foundation-of-leadership-1/earner/6088c48f-ba22-416f-a0ad-6c6e6047826c/share">See credential</a><br/><br/>
                 </div>
-          
-                <div className="sectionContainer">
-                    <span className="InfoStyleTitle">JavaScript</span><br/>
-                    <span className="InfoStyleDegree">Sololearn</span><br/>
-                    <span className="InfoStyleDate">Jul 2021</span><br/>
-                    <a href="https://www.sololearn.com/profile/12360066">See credential</a><br/><br/>
-                </div>
-
-                <div className="sectionContainer">
-                    <span className="InfoStyleTitle">React + Redux</span><br/>
-                    <span className="InfoStyleDegree">Sololearn</span><br/>
-                    <span className="InfoStyleDate">Jul 2021</span><br/>
-                    <a href="https://www.sololearn.com/profile/12360066">See credential</a><br/><br/>
-                </div>
-
-                <div className="sectionContainer">
-                    <span className="InfoStyleTitle">C tutorial</span><br/>
-                    <span className="InfoStyleDegree">Sololearn</span><br/>
-                    <span className="InfoStyleDate">May 2020</span><br/>
-                    <a href="https://www.sololearn.com/profile/12360066">See credential</a><br/><br/>
-                </div>
-
+       
                 <h3 className="TitleCategory">Skills</h3>
 
                 <div className="sectionContainer">
-                    <span className="InfoStyleTitle">Programming: </span>
-                    <span className="InfoStyleDegree">JavaScript, React, Redux, HTML, CSS, C, Java, Python, Keras, Pandas</span><br/><br/>
+                    <span className="InfoStyleTitle">Programming Languages: </span>
+                    <span className="InfoStyleDegree">Java, JavaScript, C, Python, HTML, CSS</span><br/><br/>
+                    <span className="InfoStyleTitle">Industry Knowledge: </span>
+                    <span className="InfoStyleDegree">Front-end Development, Object-Oriented Programming (OOP), Machine Learning, User Experience (UX) </span><br/><br/>
+                    <span className="InfoStyleTitle">Frameworks and Libraries: </span>
+                    <span className="InfoStyleDegree">React, Redux, Node.js, Express, WebGL, REST APIs, Pandas, NumPy</span><br/><br/>
+                    <span className="InfoStyleTitle">Tools: </span>
+                    <span className="InfoStyleDegree">Docker, Kubernetes, Git, Postman, Adobe Xd, Figma</span><br/><br/>
                     <span className="InfoStyleTitle">Interpersonal: </span>
-                    <span className="InfoStyleDegree">Problem Solving, Leadership, Comunication, Teamwork, Critical Thinking, Attention to Detail, Self-directed Learning</span><br/>
+                    <span className="InfoStyleDegree">Problem Solving, Leadership, Comunication, Teamwork, Attention to Detail, Self-directed Learning</span><br/>
 
                 </div>
 
                 <h3 className="TitleCategory">Honors & Awards</h3>
 
                 <div className="sectionContainer">
-                    <span className="InfoStyleTitle">Dean's List - Spring 2021</span><br/>
+                    <span className="InfoStyleTitle">Dean's List Fall 2021</span><br/>
                     <span className="InfoStyleDegree">University of Central Florida</span><br/><br/>
                 </div>
 
                 <div className="sectionContainer">
-                    <span className="InfoStyleTitle">President's Honor Roll - Fall 2020</span><br/>
+                    <span className="InfoStyleTitle">Dean's List Spring 2021</span><br/>
                     <span className="InfoStyleDegree">University of Central Florida</span><br/><br/>
                 </div>
 
                 <div className="sectionContainer">
-                    <span className="InfoStyleTitle">Latin American and Caribbean Scholarship - 2020</span><br/>
+                    <span className="InfoStyleTitle">President's Honor Roll Fall 2020</span><br/>
+                    <span className="InfoStyleDegree">University of Central Florida</span><br/><br/>
+                </div>
+
+                <div className="sectionContainer">
+                    <span className="InfoStyleTitle">Latin American and Caribbean Scholarship Recipient 2020 to 2021</span><br/>
                     <span className="InfoStyleDegree">University of Central Florida</span><br/><br/>
                 </div>
 
