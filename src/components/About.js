@@ -17,7 +17,7 @@ function About() {
             <div className="aboutContainer">
                 <br/><br/><h1 className='title'>Hello, 🌎!</h1>
                 <h1 className='title'>I'm José, a software developer in Florida</h1><br/>
-                <span className="aboutFont" >I enjoy coding, solving propblem, and making things simpler </span><br/><br/>
+                <span className="aboutFont" >I love coding, untangling tricky problems, and finding ways to make things simpler and more intuitive.</span><br/><br/>
                 <img src={'/Jose.jpg'} className="foto"></img><br/><br/>
                 <Link to="/About">Learn more ›</Link>
             </div>
