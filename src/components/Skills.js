@@ -11,8 +11,9 @@ function Skills() {
                 {/* <br/><br/> */}
                 <h1 className="title">Programming skills</h1>
                 {/* <h3>I have done a variety of projects using these programing languages and frameworks</h3> */}
-                <span className="defaultFont">I have experience in different programing languges and frameworks that I have learned by making projects.</span><br/>
-                <span className="defaultFont">In my free time, I often reinforce some of my programming languages skills and learn new ones.</span><br/><br/><br/>
+                <span className="defaultFont">I have hands-on experience across multiple programming languages and frameworks built through practical projects.<br/> In my free time, I continually refine my core stack and explore emerging tools.</span>
+                <br/>
+                <br/>
                 <div className="iconContainer">
                     <img className="logo" src={'/js.svg'}></img><br/>
                     <span>JavaScript</span>
