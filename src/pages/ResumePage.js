@@ -82,9 +82,6 @@ function ResumePage() {
                     <span className="InfoStyleDegree">React, Redux, Node.js, Express, WebGL, REST APIs, Pandas, NumPy</span><br/><br/>
                     <span className="InfoStyleTitle">Tools: </span>
                     <span className="InfoStyleDegree">Docker, Kubernetes, Git, Postman, Adobe Xd, Figma</span><br/><br/>
-                    <span className="InfoStyleTitle">Interpersonal: </span>
-                    <span className="InfoStyleDegree">Problem Solving, Leadership, Comunication, Teamwork, Attention to Detail, Self-directed Learning</span><br/>
-
                 </div>
 
                 <h3 className="TitleCategory">Honors & Awards</h3>
